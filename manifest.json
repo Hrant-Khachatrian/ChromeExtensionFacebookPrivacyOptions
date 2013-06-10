@@ -4,7 +4,11 @@
       "js": [ "facebookPrivacy.js" ],
       "matches": [ "http://facebook.com/*", "https://facebook.com/*", "http://www.facebook.com/*", "https://www.facebook.com/*" ]
    } ],
+<<<<<<< HEAD
    "description": "Clarifies privacy options in Facebook. Read more: http://en.wikipedia.org/wiki/PRISM_(surveillance_program)",
+=======
+   "description": "Clarifies privacy options in Facebook.",
+>>>>>>> origin/master
    "name": "Clarify Facebook's privacy options",
    "update_url": "http://clients2.google.com/service/update2/crx",
    "version": "0.1",
