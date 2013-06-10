@@ -1,1 +1,5 @@
-This file was created by JetBrains PhpStorm 6.0.2 for binding GitHub repository
+A Google Chrome extension that changes the names of privacy options in Facebook to reflect the leaked information by Edward Snowden :)
+
+Can be extended to support multiple locales, privacy options in other parts of Facebook etc.
+
+License: public domain.
