@@ -1,14 +1,19 @@
 ﻿// Inspired by an image from the web
 (function () {
 	var refresh = function () {
-		var t = document.querySelectorAll('.fbPrivacyAudienceSelectorOption .itemLabel:not(.CIA)');
-		for(var i in t){
-			if(t[i].innerHTML != 'Public'){
-				t[i].innerHTML += ' and the CIA';
+		var options = document.querySelectorAll('.fbPrivacyAudienceSelectorOption .itemLabel:not(.CIA)');
+		for(var i in options){
+			if (options[i].innerHTML !== 'Public') {
+				options[i].innerHTML += ' and the CIA';
 			}
-			t[i].className += ' CIA';
+			options[i].className += ' CIA';
 		}
-		setTimeout(refresh, 1000);
+
+		var currentOption = document.querySelector('.composerAudienceSelector .uiButtonText');
+		if (currentOption.innerHTML.substr(-3) !== 'CIA' && currentOption.innerHTML !== 'Public') {
+			currentOption.innerHTML += ' and the CIA';
+		}
+		setTimeout(refresh, 400);
 	};
-	setTimeout(refresh, 1000);
+	setTimeout(refresh, 400);
 })();
