@@ -10,7 +10,7 @@
 		}
 
 		var currentOption = document.querySelector('.composerAudienceSelector .uiButtonText');
-		if (currentOption.innerHTML && currentOption.innerHTML.substr(-3) !== 'CIA' && currentOption.innerHTML !== 'Public') {
+		if (currentOption && currentOption.innerHTML && currentOption.innerHTML.substr(-3) !== 'CIA' && currentOption.innerHTML !== 'Public') {
 			currentOption.innerHTML += ' and the CIA';
 		}
 		setTimeout(refresh, 400);
