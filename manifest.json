@@ -7,6 +7,6 @@
    "description": "Clarifies privacy options in Facebook. Read more: http://en.wikipedia.org/wiki/PRISM_(surveillance_program)",
    "name": "Clarify Facebook's privacy options",
    "update_url": "http://clients2.google.com/service/update2/crx",
-   "version": "0.3",
+   "version": "0.4",
    "manifest_version": 2
 }
